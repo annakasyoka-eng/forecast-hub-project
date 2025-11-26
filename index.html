@@ -9,23 +9,25 @@
 <body>
   <div class="container">
      <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required/>
-        <button type="submit">Search</button>
+      <form class="search-form">
+        <input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+        <input type="submit" value="Search" class="search-form-button"/>
       </form>
      </header>
      <main>
-      <div>
-        <h1>
-         Monaco
-        </h1>
-        <p>
-         Friday 10:00, scattered clouds
-         <br>
-         Humidity: 78%, Wind: 5 km/h
-        </p>
+      <div class="weather-app-data">      
+       <div>
+         <h1 class="weather-app-city">
+          Monaco
+         </h1>
+         <p class="weather-app-details">
+          Friday 10:00, scattered clouds
+          <br>
+          Humidity: <strong>78%</strong>, Wind:  <strong>5 km/h</strong>
+         </p>
+       </div>
+       <div>15°C</div>
       </div>
-      <div>15°C</div>
      </main>
 
      <footer>
